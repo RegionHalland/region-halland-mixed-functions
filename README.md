@@ -55,7 +55,7 @@ OBS! Justera så att du hämtar aktuell version.
 
 ```sh
 <p>
-	{{ region_halland_remove_shortcode($page->post_content) }}
+  {{ region_halland_remove_shortcode($page->post_content) }}
 </p>
 ```
 
@@ -67,7 +67,7 @@ OBS! Justera så att du hämtar aktuell version.
 
 ```sh
 <p>
-	{{ region_halland_switch_http_https($page->url) }}
+  {{ region_halland_switch_http_https($page->url) }}
 </p>
 ```
 
