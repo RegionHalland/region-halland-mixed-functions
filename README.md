@@ -54,13 +54,29 @@ OBS! Justera så att du hämtar aktuell version.
 ## Använda funktionen "region_halland_remove_shortcode" på en sida via "Blade"
 
 ```sh
-<p class="leading-tight text-lg text-grey-darkest">
+<p>
 	{{ region_halland_remove_shortcode($page->post_content) }}
+</p>
+```
+
+## Använda funktionen "region_halland_switch_http_https" på en sida via "Blade"
+
+- Beroende av värde för env-variabeln env('WP_ENV')
+- Om denna är satt till 'production' ersätts alla http med https
+- Är värdet något annan ersätts alla https med http
+
+```sh
+<p>
+	{{ region_halland_switch_http_https($page->url) }}
 </p>
 ```
 
 
 ## Versionhistorik
 
+### 1.1.0
+- Funktion för att ersätta http med https och tvärtom
+
 ### 1.0.0
 - Första version
+- Funktion för att ta bort shortcodes från en text
