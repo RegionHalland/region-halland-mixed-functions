@@ -75,7 +75,7 @@ OBS! Justera så att du hämtar aktuell version.
 ## Versionhistorik
 
 ### 1.1.0
-- Funktion för att ersätta http med https och tvärtom
+- Funktion för att ersätta http med https och tvärtom beroende på värde i env('WP_ENV')
 
 ### 1.0.0
 - Första version
