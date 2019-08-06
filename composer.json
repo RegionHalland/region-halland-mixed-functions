@@ -2,7 +2,7 @@
     "name": "regionhalland/region-halland-mixed-functions",
     "description": "Front-end-plugin med olika användbara funktioner",
     "type": "wordpress-plugin",
-    "license": "MIT",
+    "license": "GPL-3.0",
     "authors": [
         {
             "name": "Roland Hydén",

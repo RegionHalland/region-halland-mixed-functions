@@ -10,6 +10,14 @@ Nedan följer instruktioner hur du kan använda pluginet "region-halland-mixed-f
 Denna plugin innehåller flera användbara funktioner som gör nytta i front-end
 
 
+## Licensmodell
+
+Denna plugin använder licensmodell GPL-3.0. Du kan läsa mer om denna licensmodell via den medföljande filen:
+```sh
+LICENSE (https://github.com/RegionHalland/region-halland-mixed-functions/blob/master/LICENSE)
+```
+
+
 ## Installation och aktivering
 
 ```sh
@@ -73,6 +81,10 @@ OBS! Justera så att du hämtar aktuell version.
 
 
 ## Versionhistorik
+
+### 1.2.0
+- Lagt till information om licensmodell
+- Bifogat fil med licensmodell
 
 ### 1.1.0
 - Funktion för att ersätta http med https och tvärtom beroende på värde i env('WP_ENV')
